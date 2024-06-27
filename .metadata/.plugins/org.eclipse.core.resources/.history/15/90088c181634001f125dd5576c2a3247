@@ -1,0 +1,27 @@
+package projeto;
+
+import java.util.Scanner;
+
+public class principal {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("O programa em questão brinca com coordenadas de quatro quadrantes.");
+		System.out.println("Teremos duas coordenadas chamadas X e Y. Dito isso, vamos começar.");
+		System.out.print("Digite o valor de X: ");
+		double x = sc.nextDouble();
+		System.out.printf("%nDigite o valor de Y: ");
+		double y = sc.nextDouble();
+		
+		if (x == 0 && y == 0) {
+			System.out.println("Origem!");
+		}
+		else if (x > 0 && y > 0) {
+			System.out.println("Quadrante 1!");
+		}
+		
+		sc.close();
+	}
+
+}

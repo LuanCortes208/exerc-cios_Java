@@ -1,0 +1,16 @@
+package projeto;
+import java.util.Scanner;
+
+public class projeto2 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Este programa tem como objetivo definir se o número digitado é positivo ou negativo.");
+		
+		System.out.println("Por favor, digite um número: ");
+		
+		sc.close();
+	}
+
+}

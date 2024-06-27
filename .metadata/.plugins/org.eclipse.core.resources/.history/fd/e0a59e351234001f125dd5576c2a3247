@@ -1,0 +1,10 @@
+package resultado;
+
+public class main2 {
+
+	public static void main(String[] args) {
+		System.out.print("Este programa tem como objetivo definir se um número é par ou ímpar.");
+
+	}
+
+}

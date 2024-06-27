@@ -1,0 +1,20 @@
+package projeto;
+import java.util.Scanner;
+
+public class projeto2 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Este programa tem como objetivo definir se o número digitado é positivo ou negativo.");
+		System.out.print("Por favor, digite um número: ");
+		double x = sc.nextDouble();
+		
+		if (x >= 0) {
+			System.out.printf("O número digitado foi %f e seu valor é positivo.", x);
+		}
+		
+		sc.close();
+	}
+
+}
