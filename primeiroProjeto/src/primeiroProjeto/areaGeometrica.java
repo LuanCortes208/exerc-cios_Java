@@ -8,6 +8,7 @@ public class areaGeometrica {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
+		
 		System.out.println("-------------------------------------Bem vindo-------------------------------------");
 		System.out.println("Esse programa tem como objetivo retornar a área das seguintes figuras geométricas:");
 		System.out.printf("1° Quadrado%n2° Triângulo Retângulo%n3° Retângulo%n4° Círculo%n5°Trapézio%n");

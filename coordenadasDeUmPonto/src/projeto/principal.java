@@ -11,6 +11,7 @@ public class principal {
 		System.out.println("Teremos duas coordenadas chamadas X e Y. Dito isso, vamos começar.");
 		System.out.printf("%nDigite o valor de X: ");
 		double x = sc.nextDouble();
+		
 		System.out.printf("%nDigite o valor de Y: ");
 		double y = sc.nextDouble();
 		
