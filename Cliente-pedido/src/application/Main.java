@@ -19,6 +19,7 @@ public class Main {
 		System.out.print("Nome: ");
 		String nome = sc.nextLine();
 		
+		
 		System.out.print("Email: ");
 		String email = sc.nextLine();
 		System.out.print("Data de aniversário (dd/mm/yyyy): ");
