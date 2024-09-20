@@ -14,10 +14,6 @@ public class principal {
 		
 		int advinha = sc.nextInt();
 		
-<<<<<<< HEAD
-=======
-		
->>>>>>> 0a1fffa (Estrutura_while)
 		while (advinha != senha) {
 			System.out.println("Senha inválida");
 			System.out.print("Advinhe a senha: ");
