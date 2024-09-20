@@ -8,7 +8,6 @@ public class principal {
 		Scanner sc = new Scanner(System.in);
 		
 		int senha = 2002;
-		
 		System.out.println("Este programa tem como objetivo advinhar qual é a senha correta.");
 		System.out.print("Portanto, advinhe a senha: ");
 		
