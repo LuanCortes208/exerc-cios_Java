@@ -49,7 +49,8 @@ public class Program {
 		System.out.print("Introduzir a identificação do funcionário que vai ter um aumento salarial: ");
 		int funcionarioId = input.nextInt();
 		
-		 Funcionario funcionario = funcionario1.stream().filter(x -> x.getId() == funcionarioId).findFirst().orElse(null);
+		 @SuppressWarnings("unused")
+		Funcionario funcionario = funcionario1.stream().filter(x -> x.getId() == funcionarioId).findFirst().orElse(null);
 		
 		 
 		Integer pos = posicao(funcionario1, funcionarioId);
